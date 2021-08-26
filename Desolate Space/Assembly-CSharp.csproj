@@ -64,6 +64,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\BoostBar.cs" />
     <Compile Include="Assets\Scripts\Environment\Bounds.cs" />
     <Compile Include="Assets\Scripts\Environment\EnvironmentBehavior.cs" />
     <Compile Include="Assets\Scripts\Environment\EnvironmentCreator.cs" />
@@ -80,6 +81,7 @@
     <Compile Include="Assets\Scripts\Player\PlayerSetup.cs" />
     <Compile Include="Assets\Scripts\Player\Shatterer.cs" />
     <Compile Include="Assets\Scripts\Player\SpotlightPosition.cs" />
+    <Compile Include="Assets\Scripts\UI\PowerBar.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

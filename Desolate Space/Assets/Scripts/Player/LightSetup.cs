@@ -18,6 +18,6 @@ public class LightSetup : MonoBehaviour
     {
         transform.position = (Vector2)playerBody.transform.position;
         float lightIntensity = 2.25f*5f * rb.mass + 12.5f*5f;
-        GetComponent<Light>().intensity = lightIntensity < 32.5f ? 32.5f : lightIntensity;
+        //GetComponent<Light>().intensity = lightIntensity < 32.5f ? 32.5f : lightIntensity;
     }
 }
